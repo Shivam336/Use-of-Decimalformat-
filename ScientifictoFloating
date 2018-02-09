@@ -1,0 +1,15 @@
+package ScientifictoFloating;
+import java.text.DecimalFormatSymbols;
+import java.util.Scanner;
+
+public class scientifictoFloating 
+	{public static void main(String ar[])
+	{   final String COMMA_SEPERATED = "###,###.###";
+	Scanner S1=new Scanner(System.in);
+	System.out.println("Enter any Numbers");
+	int a=S1.nextInt();
+	DecimalFormatSymbols  decimalFormat = new DecimalFormatSymbols();
+	int c=a;
+	System.out.println("The number is "+COMMA_SEPERATED);
+	}
+	}
